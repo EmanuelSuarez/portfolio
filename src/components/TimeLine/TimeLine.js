@@ -44,8 +44,9 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
+      <SectionDivider/>
       <SectionTitle>About Me</SectionTitle>
-      <SectionText> lorem ipsum dolor sit amet conepteur lorem ipsum dolor sit amet conepteur </SectionText>
+      <SectionText> <strong style={{ color: "white" }} > i am a life-long learner </strong> , i discovered web development in 2020 and since then i haven't stopped learning. And i hope i never will. </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
         <>
         {TimeLineData.map((item, i) => ( 

@@ -29,6 +29,7 @@ export const SectionTitle = styled.h2`
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
+  margin-top: 30px;
   max-width: 100%;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
@@ -80,6 +81,7 @@ export const SectionDivider = styled.div`
 
   width: 64px;
   height: 6px;
+  margin-bottom: 30px;
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 

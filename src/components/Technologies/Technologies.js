@@ -1,12 +1,13 @@
 import React from 'react';
 import { DiFirebase, DiReact } from 'react-icons/di';
 import { FiFigma } from 'react-icons/fi'
+import { FaEthereum } from 'react-icons/fa'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id='tech'>
-    <SectionDivider/> <br/>
+    <SectionDivider/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       i'm technologically agnostic. I've worked with various technologies in the web development world. From Design to Deployment.
@@ -28,7 +29,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            Node.js and Databases
+            Node.js, SQL, noSQL, serverless, firebase, AWS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,6 +40,16 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br/>
             Figma and Adobe XD
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FaEthereum size='3rem' />
+        <ListContainer>
+          <ListTitle>Blockchain - web3</ListTitle>
+          <ListParagraph>
+            Experience with <br/>
+            Solidity, web3, ethers, wagmi
           </ListParagraph>
         </ListContainer>
       </ListItem>
